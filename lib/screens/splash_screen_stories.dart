@@ -75,26 +75,25 @@ class _StoriesSplashScreenState extends State<StoriesSplashScreen> {
                 ),
               ),
 
-              const SizedBox(height: 40),
 
-              // To show user name
-              if (user != null) ...[
-                Text(
-                  user!.name,
-                  style: const TextStyle(
-                    color: Colors.white,
-                    fontSize: 22,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                Text(
-                  "@${user!.username}",
-                  style: const TextStyle(
-                    color: Colors.grey,
-                    fontSize: 16,
-                  ),
-                ),
-              ],
+              // // To show user name
+              // if (user != null) ...[
+              //   Text(
+              //     user!.name,
+              //     style: const TextStyle(
+              //       color: Colors.white,
+              //       fontSize: 22,
+              //       fontWeight: FontWeight.bold,
+              //     ),
+              //   ),
+              //   Text(
+              //     "@${user!.username}",
+              //     style: const TextStyle(
+              //       color: Colors.grey,
+              //       fontSize: 16,
+              //     ),
+              //   ),
+              // ],
 
               const SizedBox(height: 80),
 

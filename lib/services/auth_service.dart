@@ -43,7 +43,7 @@ class AuthService {
     final userJson = await _secureStorage.read(key: "user");
 
     if (userJson != null) {
-      return jsonDecode(userJson) as Map<String, dynamic>; // ✅ Safe Map return
+      return jsonDecode(userJson) as Map<String, dynamic>;
     }
     return null;
   }
